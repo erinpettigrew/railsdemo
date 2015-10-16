@@ -11,7 +11,7 @@
 <body>
 	<%= render 'layouts/navbar' %>
 	<div class="container-fluid">
-		<p class="notice"><%= notice %></p>
+		<!--<p class="notice"><%= notice %></p>-->
        	<% flash.each do |name, msg| %>
       <% if msg.is_a?(String) %>
         <div class="alert alert-<%= name == "notice" ? "success" : "danger" %> alert-dismissable">
