@@ -64,6 +64,7 @@ class RestaurantsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    # Get the ID of the restaurant
     def set_restaurant
       @restaurant = Restaurant.find(params[:id])
     end
